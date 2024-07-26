@@ -1,0 +1,17 @@
+{
+  "name": "test-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "testEnvDev": "setx TESTCAFE_ENVIRONMENT \"DEV\"",
+    "testEnvTest": "setx TESTCAFE_ENVIRONMENT \"TEST\""
+  },
+  "devDependencies": {
+    "@types/uuid": "9.0.1",
+    "testcafe": "3.5.0",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "uuid": "9.0.0"
+  }
+}
